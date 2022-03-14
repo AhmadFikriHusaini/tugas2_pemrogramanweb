@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TAUGAS JavaScript</title>
+</head>
+
+<body>
+    <section class="container-fluid">
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-4">
+                <form name="form" class="form-container">
+                    <h4 class="text-center font-weight-bold">Input Data Pembelian</h4>
+                    <div>
+                        <p>Pilih Seri Mobil :</p>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="" id="lambo" value="">
+                        <label class="form-check-label" for="">
+                            Lamborghini galardo
+                        </label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="jmllambo" placeholder="Jumlah" name="lamborghini">
+                        <label for="lamborghini">Jumlah :</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" name="" id="bugatti" value="">
+                        <label class="form-check-label" for="">
+                            bugatti veron
+                        </label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="email" class="form-control" id="jmlbugatti" placeholder="Jumlah" name="bugatti">
+                        <label for="bugatti">Jumlah :</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" name="" id="ferrari" value="">
+                        <label class="form-check-label" for="">
+                            ferrari portofino
+                        </label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="jmlferrari" placeholder="Jumlah" name="ferrari">
+                        <label for="ferrari">Jumlah :</label>
+                    </div>
+                    <div class="mt-3">
+                        <p>Asuransi Kendaran :</p>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="" id="asuransiYa" value="">Ya
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="" id="asuransiTidak" value="">Tidak
+                        </label>
+                    </div>
+                    <div class="mt-3">
+                        <span>total bayar :</span>
+                        <span id="total"></span>
+                    </div>
+                    <div class="mt-3">
+                        <input type="button" class="btn btn-primary" value="Total">
+                        <input type="reset" class="btn btn-danger" value="Reset">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
